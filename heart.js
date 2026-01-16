@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function createLoveText() {
         if (!loadedFont) return;
 
-        const loveTextGeometry = new THREE.TextGeometry("I Love You Strawberry", {
+        const loveTextGeometry = new THREE.TextGeometry("I Love You Babu", {
             font: loadedFont,
             size: 0.5, // Increased size for better mobile visibility
             height: 0.12, // Increased depth
